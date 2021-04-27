@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Gilroy Extra Bold';
+    src: url('fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+  background-color: #000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Gilroy Extra Bold";
+  font-size: 5em;
+  color: #fff;
+}
